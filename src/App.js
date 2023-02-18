@@ -35,7 +35,7 @@ const App = () => {
         <h1>To Do List</h1>
         <br/>
         <input type="text" placeholder="Add An Item" onChange={itemEvent} value={inputList} />
-        <button className="btn" onClick={listOfItems}> + </button>
+        <button className="btn" onClick={listOfItems}> ++ </button>
 
         <ol>
           {items.map((itemval , index) => {
